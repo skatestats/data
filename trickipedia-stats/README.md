@@ -59,6 +59,17 @@ tj rogers | switch frontside 360 ollie  | 07-22-2014 | http://theberrics.com/tri
 ]
 ```
 
+## Nesting the Data
+
+I've included a small node script that will [nest the data](https://github.com/mbostock/d3/wiki/Arrays#d3_nest) by skater name. To process the data, run the following commands from terminal:
+
+```bash
+npm install
+node process-data.js
+```
+
+You should then see a file called `results.json` in this directory.
+
 ## Data Source
 
 All data comes from [The Berrics](theberrics.com/trickipedia).
